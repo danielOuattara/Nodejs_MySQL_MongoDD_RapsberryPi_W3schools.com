@@ -1,0 +1,1 @@
+ Testing fs.appendFile() function Testing fs.appendFile() functionThis text is update by appendFile()
