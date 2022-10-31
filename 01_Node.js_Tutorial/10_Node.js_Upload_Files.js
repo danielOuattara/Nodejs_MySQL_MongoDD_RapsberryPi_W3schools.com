@@ -56,7 +56,7 @@ Include the Formidable module to be able to parse the uploaded file once it reac
 When the file is uploaded and parsed, it gets placed on a temporary folder on your computer. */
 
 
-// var http =require('http');
+// var http = require('http');
 // var formidable = require('formidable');
 
 // http.createServer( function (req, res){
