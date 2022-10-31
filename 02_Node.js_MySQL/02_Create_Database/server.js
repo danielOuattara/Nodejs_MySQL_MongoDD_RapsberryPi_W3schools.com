@@ -15,9 +15,11 @@ connexion.connect (err => {
     console.log("... Connected !");
 });
 
-connexion.query("CREATE DATABASE w3schools_nodejs_db", (err, result) => {
+
+
+connexion.execute("CREATE DATABASE w3schools_nodejs_db", (err, result) => {
     if(err) throw err;
-    console.log("... Datbase created !");
+    console.log("... Database created !");
 })
 
 

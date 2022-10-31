@@ -52,22 +52,22 @@
 /* If the table already exists, use the ALTER TABLE keyword:
 ------------------------------------------------------------ */
 
-const mysql = require("mysql2");
+// const mysql = require("mysql2");
 
-const connexion = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "1_superPassword!",
-    database: "w3schools_nodejs_db"
-});
+// const connexion = mysql.createConnection({
+//     host: "localhost",
+//     user: "root",
+//     password: "1_superPassword!",
+//     database: "w3schools_nodejs_db"
+// });
 
-connexion.connect (err => {
-    if (err) throw err;
-    console.log("... Connected !");
-});
+// connexion.connect (err => {
+//     if (err) throw err;
+//     console.log("... Connected !");
+// });
 
-const sql = `ALTER TABLE customers ADD COLUMN customerID INT AUTO_INCREMENT PRIMARY KEY`;
-connexion.query(sql, (err, result) => {
-    if(err) throw err; 
-    console.log("... customers table altered !");
-})
+// const sql = `ALTER TABLE customers ADD COLUMN customerID INT AUTO_INCREMENT PRIMARY KEY`;
+// connexion.query(sql, (err, result) => {
+//     if(err) throw err; 
+//     console.log("... customers table altered !");
+// })
