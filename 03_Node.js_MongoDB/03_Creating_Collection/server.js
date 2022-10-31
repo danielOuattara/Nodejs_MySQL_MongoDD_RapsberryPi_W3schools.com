@@ -15,6 +15,7 @@ MongoClient.connect(url, function(err, db) {
     if (err) throw err;
     console.log(" Collection created !")
   })
+  
   db.close();
 });
 

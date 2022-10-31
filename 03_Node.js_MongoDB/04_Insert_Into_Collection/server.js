@@ -71,7 +71,7 @@ errors or the result of the insertion: */
 //     { name: 'Viola'  , address: 'Sideway 1633'}
 //   ];
 
-//   database.collection("customers").insertMany(myObj, (err, res)=> {
+//   database.collection("customers").insertMany(myObj, (err, res) => {
 //     if (err) throw err;
 //     console.log(`Documents inserted : ${res.insertedCount} !`)
 //   })
